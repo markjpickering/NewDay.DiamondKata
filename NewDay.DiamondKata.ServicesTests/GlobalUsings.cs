@@ -1,0 +1,10 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Globalization;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using NewDay.DiamondKata.Services.Exceptions;
+global using NewDay.DiamondKata.Services.Implementations;
+global using FluentAssertions;
+global using Xunit;

@@ -1,0 +1,10 @@
+﻿global using Microsoft.Extensions.DependencyInjection;
+global using System;
+global using System.Globalization;
+global using System.Linq;
+global using System.Text;
+global using NewDay.DiamondKata.Services.ExtensionMethods;
+global using NewDay.DiamondKata.Services.Implementations;
+global using NewDay.DiamondKata.Services.Interfaces;
+global using NewDay.DiamondKata.Services.HelperMethods;
+global using NewDay.DiamondKata.Services.Exceptions;
