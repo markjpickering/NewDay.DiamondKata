@@ -5,7 +5,8 @@ internal class Program
     public static void Main(string[] args) =>
         ConfigureServices(new ServiceCollection())
             .BuildServiceProvider()
-            .GetRequiredService<Application>().Run(args);
+            .GetRequiredService<Application>()
+            .Run(args);
 
     public static IServiceCollection ConfigureServices(IServiceCollection services) =>
         services

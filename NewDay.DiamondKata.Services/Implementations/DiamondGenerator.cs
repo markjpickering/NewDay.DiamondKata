@@ -41,9 +41,6 @@ public class DiamondGenerator : IDiamondGenerator
     private int RowCharacterGap(char character, char endCharacter) =>
          (CharacterPosition(character) * 2) -1;
 
-    private int RowWidth(char endCharacter) =>
-        CharacterPosition(endCharacter);
-
     private int CharacterPosition(char character) =>
         character - StartingCharacter(character);
 
